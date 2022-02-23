@@ -4,7 +4,7 @@ I will be building a basic Express server using best practices, including server
 
 ## Task Submission
 
-1. [PR Link](https://github.com/karamalqinneh/basic-express-server/pull/4)
+1. [PR Link](https://github.com/karamalqinneh/basic-express-server/pull/6)
 2. [Deployed Version](https://karam-basic-express-server.herokuapp.com/)
 
 ## Task General Notes
