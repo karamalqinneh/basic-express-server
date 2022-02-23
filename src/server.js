@@ -8,6 +8,7 @@ const notFound = require("./error-handlers/404");
 const morgan = require("morgan");
 const validator = require("./middleware/validator");
 const logger = require("./middleware/logger");
+const cors = require("cors");
 
 const start = (port) => {
   app.listen(port, () => {
@@ -16,6 +17,7 @@ const start = (port) => {
 };
 
 // app.use(morgan(":method :url"));
+app.use(cors());
 app.use(logger);
 
 app.get("/", (req, res) => {
