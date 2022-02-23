@@ -19,7 +19,7 @@ const start = (port) => {
 app.use(logger);
 
 app.get("/", (req, res) => {
-  res.send("home route");
+  res.send("go to person route and write a query to avoid faing errors");
 });
 
 app.get("/person", validator, personsHandler);
