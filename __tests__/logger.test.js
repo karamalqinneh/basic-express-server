@@ -1,7 +1,6 @@
 "use strict";
 
 const { expect } = require("@jest/globals");
-const { afterEach } = require("jest-circus");
 const logger = require("../src/middleware/logger");
 
 describe("testing logger middleware", () => {
