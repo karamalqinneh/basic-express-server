@@ -12,7 +12,7 @@ describe("testing API server", () => {
     expect(response.status).toEqual(404);
   });
   it("404 on a bad method", async () => {
-    const response = await request.post("/brokeLink");
+    const response = await request.post("/person");
     expect(response.status).toEqual(404);
   });
 });
