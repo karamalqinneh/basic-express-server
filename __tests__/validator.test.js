@@ -6,7 +6,7 @@ const supertest = require("supertest");
 
 const request = supertest(server.app);
 
-describe("testing API server", () => {
+describe("testing person route", () => {
   it("500 if no name in the query string", async () => {
     const response = await request.get("/person?name=");
     expect(response.status).toEqual(500);
